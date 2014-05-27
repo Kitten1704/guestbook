@@ -1,0 +1,114 @@
+﻿/*Общий стиль странички*/
+body, html {
+height: 100%;
+background:center;
+background-color:  #DCDCDC;
+margin:0px; 
+padding:0px;
+text-align:center; 
+overflow: auto; 
+}
+/*Оформление тестов*/
+h1{color:#696969; font-size:20px; text-align:left; padding-left:10px;}
+h2{color: #C0C0C0; font-size:16px; text-align:left; padding-left:10px;}
+h3{color: #808080; font-size:22px; text-align:center;}
+h4 {color: #F08080; font-size:16px; text-align:left; padding-left:75px; 
+   margin-top:-20px; margin-bottom:-20px;}
+p{color: #696969; font-size: 18px; text-align:justify; padding-left:10px; 
+  padding-right:10px; margin-top:30px;}
+/*Общий блок*/
+.container{
+position: relative;  
+/*border: solid 1px black;*/
+background-color: #F5F5F5;
+width:80%;
+margin:0 auto;
+padding-bottom:20px;
+}
+/*Заголовок*/
+.title{
+height:95px;
+background-image:url(img/title.png);
+margin:0 auto;
+padding-top:15px;
+height:75px;
+/*border: solid 1px black;*/
+}
+.title_links{
+float:right;
+padding:0;
+margin: 0 auto;
+margin-right:10px;
+}
+/*контейнер для вывода информации из БД*/
+.messages{
+margin:0 auto;
+}
+table{
+width:90%;
+margin:auto;
+}
+.avatar{
+/*float:left;*/
+width:100px;
+height:100px;
+margin:0 auto;
+margin-left:15px;
+margin-right: 20px;
+padding:0;
+/*border: solid 1px black;*/
+}
+/*блок отмены предыдущих обтеканий*/
+.clear{
+height:0;
+font-size:1px;
+line-height:0px;
+clear:both;
+}
+/*контейнер для формы ввода информации*/
+.message_form{
+background-color:  #FFFAFA;
+width:80%;
+position: relative;  
+height: 300px;  
+margin-top: -300px; 
+/*border: solid 1px black;*/
+margin:0 auto;
+padding-top:10px;
+}
+/*блок ввода информации*/
+.message_form_center{
+/*border: solid 1px black;*/
+background-color:  #FFFAFA;
+width:51%;
+margin:0 auto;
+}
+.user_name{
+float:left;
+width:100px;
+height:50px;
+margin:0 auto;
+margin-left:15px;
+padding:0;
+/*border: solid 1px black;*/
+}
+.text_box{
+float:right;
+margin:0 auto;
+margin-top:-100px;
+margin-left:130px;
+padding:0;
+/*border: solid 1px black;*/
+}
+/*кнопка разместить*/
+.message_form_button{
+width:200px; 
+height:26px;
+color: #696969;
+margin-top:20px;
+padding:0;
+}
+/*цвет текста в полях ввода*/
+.text_color{
+color: #696969;
+}
